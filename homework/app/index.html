@@ -2,14 +2,13 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title>homework</title>
+    <title>{re}start</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="/favicon.ico">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -17,58 +16,157 @@
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- endbuild -->
 
   </head>
   <body>
-    <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">homework</h3>
+    <div class="top-header">
+      <ul class="social-tab bg-primary">
+        <i class="social-icon fa fa-facebook fa-lg"></i>
+        <i class="social-icon fa fa-twitter fa-lg"></i>
+        <i class="social-icon fa fa-google-plus fa-lg"></i>
+      </ul>
+      <img src="../images/restart_logo.png" alt="">
+      <div class="header-title">
+        <h1>{re}<strong>start</strong></h1>
+        <h4>a multipurpose template</h4>
       </div>
-
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-          <h4>Sass</h4>
-          <p>Sass is a mature, stable, and powerful professional grade CSS extension language.</p>
-
-
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-
-        </div>
-      </div>
-
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-      </div>
+      <button type="button" id="menu-dropdown" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="fa fa-bars"></span><strong>menu</strong>
+      </button>
 
     </div>
+    <hr id="top-divider">
+    <section class="features">
+      <div class="feature-title">
+        <h1>focus on what's important</h1>
+        <h4>and make the web a little bit prettier</h4>
+        <button class="btn btn-primary">Buy this theme!</button>
+      </div>
+      <div class="feature-1">
+        <img src="../images/responsive.png" alt="">
+        <h3>CLEAN, RESPONSIVE DESIGN</h3>
+        <p>A multipurpose but mainly <strong>business oriented</strong> design, built to serve as a sfoundation for your web projects. Suspendisse nec risus fementam spaien confgue fermntum sed at lerome.</p>
+      </div>
+      <div class="feature-1">
+        <img src="../images/git.png" alt="">
+        <h3>BASED ON TWITTER BOOTSRAP</h3>
+        <p>A multipurpose but mainly <strong>business oriented</strong> design, built to serve as a sfoundation for your web projects. Suspendisse nec risus fementam spaien confgue fermntum sed at lerome.</p>
+      </div>
+      <div class="feature-1">
+        <img src="../images/less.png" alt="">
+        <h3>MAKE REAL USE OF {LESS}</h3>
+        <p>A multipurpose but mainly <strong>business oriented</strong> design, built to serve as a sfoundation <strong>{less} and boostrap combined</strong> for your web projects. Suspendisse nec risus fementam spaien confgue fermntum sed at lerome.</p>
+      </div>
+
+    </section>
+
+    <section id="projects">
+      <h1>Recent Work or Projects from Portfolio</h1>
+      <h3>we take pride in our work</h3>
+      <hr>
+      <div class="project-1">
+        <div class="project-1-img"></div>
+        <h3>The {re}start Project</h3>
+        <h4>DESIGN</h4>
+        <hr>
+      </div>
+      <div class="project-1">
+        <img id="up-arrow" src="../images/up-arrow.png" alt="">
+        <img src="../images/socks.jpg" alt="">
+        <h3>Colorfull iOS Apss</h3>
+        <h4>DEVELOPMENT</h4>
+        <hr>
+      </div>
+      <div class="project-1">
+        <img src="../images/icecream.jpg" alt="">
+        <h3>POETIC Magazine</h3>
+        <h4>ILLUSTRATIONS</h4>
+        <hr>
+      </div>
+    </section>
+    <section class="clients">
+      <h3>OUR CLIENTS</h3>
+      <h4>ALL OF THEM ARE SATISFIED</h4>
+      <img id="up-arrow" src="../images/up-arrow.png" alt="">
+      <hr>
+      <img src="../images/wordpress.jpg" alt="">
+      <img src="../images/jquery.jpg" alt="">
+      <img src="../images/microlancer.jpg" alt="">
+      <img src="../images/microlancer.jpg" alt="">
+      <img class="col-sm-12" src="../images/wpml.jpg" alt="">
+    </section>
+    <section class="wp-info">
+      <i class="fa fa-twitter fa-5x"></i>
+      <p>This Clean, Flexible, Multipurpose Boostrap 3.1.1.1 HTML5 Template will soon become  a wordpres them with great support! <span>http://unhub.com/LIot</span></p>
+      <p>-LeonArt(@leonartgt) <span>April 4, 2014</span></p>
+      <img src="../images/up-arrow.png" alt="">
+    </section>
+    <section class="about-us">
+      <h2>ABOUT US</h2>
+      <p>Fugiat dapibus, tellus ac curossos , commdo, maruresis, comidn nutem nign, ut fermentum mas justo sitters.</p>
+
+      <i class="fa fa-map-marker fa-lg">3 Athens streeet</i>
+      <i class="fa fa-phone fa-lg">(+30)434-34343</i>
+      <i class="fa fa-print fa-lg">(+30)434-34343</i>
+      <i class="fa fa-envelope-o fa-lg">hello@restartheme.com</i>
+
+    </section>
+    <section class="latest-news">
+      <h2>LATEST NEWS</h2>
+      <div class="news-1">
+        <img src="../images/man-writing.jpg" alt="">
+        <h3>MEDIA HEADING, THIS IS A TITLE OF A NEWS...</h3>
+        <p>Fugiat daphbius, tellus ac curos, comoodo, ut fermentum...</p>
+        <div class="news-date">19 FEB</div>
+      </div>
+      <div class="news-1">
+        <img src="../images/macbook.jpg" alt="">
+        <h3>MEDIA HEADING OF A NEWS ITEM.</h3>
+        <p>Fugiat daphbius, tellus ac curos, comoodo, ut fermentum...</p>
+        <div class="news-date">19 FEB</div>
+      </div>
+    </section>
+
+    <section class="flickrfeed">
+      <h2>FLICKRFEED</h2>
+      <img class="flickr-image" src="../images/wpml.jpg" alt="">
+      <img class="flickr-image" src="../images/open-pond.jpg" alt="">
+      <img class="flickr-image" src="../images/sewer-cover.jpg" alt="">
+      <img class="flickr-image" src="../images/tree-beach.jpg" alt="">
+      <img class="flickr-image" src="../images/sandy-beach.jpg" alt="">
+      <img class="flickr-image" src="../images/forest.jpg" alt="">
+      <img class="flickr-image" src="../images/ridge.jpg" alt="">
+      <img class="flickr-image" src="../images/dark-pond.jpg" alt="">
+      <img class="flickr-image" src="../images/black-sky.jpg" alt="">
+      <img class="flickr-image" src="../images/rock-beach.jpg" alt="">
+      <p>All photos C by Dimitra Giannouka.</p>
+    </section>
+    <section class="footer">
+      <p>Copyright C 2014 allrights reserved</p>
+
+      <img src="../images/up-arrow.png" alt="">
+      <p>Deisnge by LeonArt</p>
+    </section>
+
+
 
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -85,5 +183,5 @@
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
-</body>
+  </body>
 </html>
