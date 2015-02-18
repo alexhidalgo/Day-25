@@ -156,7 +156,8 @@ body {
   section.wp-info {
     background-color: #222222;
     color: #D0C9C8;
-    padding: 9em 2em 2em 2em  ;
+    padding: 9em 2em 2em 2em ;
+    border-bottom: 1.5px solid #080808;
     i {
       color: #418AC9;
     }
@@ -171,14 +172,23 @@ body {
     }
     p:nth-child(n+2) {
       margin: 0;
+
+    }
+    span {
+      color: #418AC9;
     }
   }
   section.about-us {
-    background-color: #222222;
+    background-color: #212121;
     color: #D0C9C8;
+    padding: 9em 2em 2em 2em ;
+
     h2 {
       margin: 0;
+      font-size: 1.2em;
+      margin-bottom: 2em;
     }
+
   }
   section.latest-news {
     padding: 1em 1em;
