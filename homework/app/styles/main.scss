@@ -10,6 +10,7 @@ body {
 
   font-family: Open-Sans;
   font-weight: 300;
+  display: none;
 
   hr {
       @include hr-line;
